@@ -1,0 +1,12 @@
+\usepackage{enumitem}
+
+\setlist[description]{style=multiline, leftmargin=40mm, labelsep=5mm}
+
+\newcommand{\ruledheader}[2]{%
+\begingroup
+\setlength{\fboxsep}{0pt}%
+\colorbox{#1}{%
+\parbox[b][1.2ex][t]{35mm}{\begin{tiny}\ \end{tiny}}}%
+\parbox[b][1.2ex][t]{5mm}{\begin{tiny}\ \end{tiny}}%
+\uppercase{\textbf{#2}}
+\endgroup}

@@ -1,0 +1,118 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  12pt,
+  a4paper,
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+  \setmainfont[]{Nimbus Sans}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{enumitem}
+
+\setlist[description]{align=left}
+
+\newcommand{\ruledheader}[2]{%
+\begingroup
+\setlength{\fboxsep}{0pt}%
+\colorbox{#1}{%
+\parbox[b][1.2ex][t]{35mm}{\begin{tiny}\ \end{tiny}}}%
+\parbox[b][1.2ex][t]{5mm}{\begin{tiny}\ \end{tiny}}%
+#2
+\endgroup}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\begin{Huge}
+% \begingroup
+% \setlength{\fboxsep}{0pt}%
+% \colorbox{blue}{%
+% \parbox[b][1.2ex][t]{4em}{\begin{tiny}\ \end{tiny}}}%
+% \parbox[b][1.2ex][t]{0.7em}{\begin{tiny}\ \end{tiny}}%
+% Pascal Lasnier
+% \endgroup
+% \ruledheader{blue}{Pascal Lasnier}
+\hspace{8mm}
+\textbf{Pascal Lasnier}
+\end{Huge}
+
+\vspace{-5mm}
+
+\begin{flushright}
+\mbox{\rule[-4mm]{0.8pt}{10mm}\hspace{3mm}%
+\parbox{40mm}{py@lasnier.com\\+44 7521 986848}}
+\end{flushright}
+
+\begin{Large}\vspace{2ex}
+
+\ruledheader{blue}{Hello}\end{Large}
+
+\begin{description}
+\item[2013-2018]
+Text goes here
+\item[\textbf{Hobbies and interests}]
+More text? Question mark?
+\end{description}
+
+\begin{Large}
+
+\vspace{-1.5ex}\rule{\textwidth}{0.8pt}\vspace{2ex}
+
+\ruledheader{blue}{Next header}\end{Large}
+
+\textbf{These interests\\
+may further\\
+hobby you}
+
+\begin{Large}
+
+\vspace{-1.5ex}\rule{\textwidth}{0.8pt}\vspace{2ex}
+
+\ruledheader{blue}{Last header}\end{Large}
+
+\end{document}
