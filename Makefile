@@ -9,7 +9,8 @@ pdf:
 		--include-in-header=$(PANDOCDIR)/header.tex \
 		--include-before-body=$(PANDOCDIR)/title.tex \
 		-V papersize:a4 \
-		-V geometry:margin=1in \
+		-V pagestyle=empty \
+		-V geometry:margin=0.6in \
 		-V mainfont:"TeX Gyre Heros" \
 		-V fontsize:11pt \
 		--to=latex \
