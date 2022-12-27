@@ -1,3 +1,10 @@
+---
+name: Pascal Lasnier
+email: py@lasnier.com
+phone: '+44 7521 986848'
+website: github.com/pylasnier
+address: St. Catharine's College, Cambridge, CB2 1RL
+---
 # Education{.norule}
 
 2020 --- present

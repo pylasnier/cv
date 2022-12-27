@@ -46,6 +46,7 @@
 \usepackage{multicol}
 
 \setlist[description]{style=multiline, leftmargin=40mm, labelsep=5mm}
+\setlist[itemize]{noitemsep}
 \setlength{\multicolsep}{\parskip}
 
 \newcommand{\ruledheader}[2]{%
@@ -69,9 +70,15 @@
 \author{}
 \date{}
 
+\newcommand{\name}{Pascal Lasnier}
+
+\newcommand{\email}{py@lasnier.com}
+\newcommand{\phone}{+44 7521 986848}
+\newcommand{\website}{github.com/pylasnier}
+\newcommand{\address}{St.~Catharine's College, Cambridge, CB2 1RL}
+
 \begin{document}
 
-\begin{Huge}
 % \begingroup
 % \setlength{\fboxsep}{0pt}%
 % \colorbox{blue}{%
@@ -80,20 +87,25 @@
 % Pascal Lasnier
 % \endgroup
 % \ruledheader{blue}{Pascal Lasnier}
+\ifdefined\name
+\begin{Huge}
 \hspace{8mm}
-\textsc{\textbf{Pascal Lasnier}}
+\textsc{\textbf{\name}}
 \end{Huge}
+\fi
 
 \vspace{-7.5mm}
 
 \begin{flushright}
 \mbox{\rule[-6mm]{0.8pt}{14mm}\hspace{3mm}%
-\parbox{40mm}{py@lasnier.com\\+44 7521 986848\\github.com/pylasnier}}
+\parbox{40mm}{\email\\\phone\\\website}}
 \end{flushright}
 
+\ifdefined\address
 \vspace{-1.2ex}
 \hspace{8mm}
-St. Catharine's College, Cambridge, CB2 1RL
+\address
+\fi
 
 \begin{Large}\vspace{2ex}
 
@@ -108,9 +120,7 @@ Years 1 and 2: 1\textsuperscript{st} (76\% in Year 2)
 
 Studying for Aerospace and Aerothermal Engineering
 \item[2018 --- 2020]
-\textbf{Richard Huish College, Taunton}
-
-Paragraph
+\textbf{Richard Huish College, Taunton} (A-Levels)
 
 \begingroup
 \begin{multicols}{3}
@@ -133,15 +143,71 @@ Paragraph
 \end{itemize}
 
 \end{multicols}
-\endgroup
+\vspace{-\parskip}\endgroup
+\item[2013 --- 2018]
+\textbf{Bishop Fox's School, Taunton} (GCSEs)
 
-Paragraph
+7 grade 9s (incl.~Mathematics, Physics, Computer Science, and English
+Language)
 \end{description}
 
 \begin{Large}
 
 \vspace{-1.5ex}\rule{\textwidth}{0.8pt}\vspace{2ex}
 
-\ruledheader{cyan!50!teal}{Rule?}\end{Large}
+\ruledheader{cyan!50!teal}{Programming experience}\end{Large}
+
+\textbf{2\textsuperscript{nd} year Engineering Robot Project} \textbar{}
+2021 \textbar{} Arduino C++ \textbar{}
+\emph{github.com/pylasnier/idp205}
+
+\begin{itemize}
+\tightlist
+\item
+  Lead software component of six-person team group project to design an
+  autonomous robot;
+\item
+  Task involved navigation within an arena to search and collect small
+  dummies;
+\item
+  Developed an understanding for the limitations of microcontrollers and
+  how to work around them, especially in memory;
+\item
+  Learnt alternatives for debugging a microcontroller system when
+  breakpoints, watches, and other debugging features are not available.
+\end{itemize}
+
+\textbf{A-Level Computer Science NEA} \textbar{} 2019 --- 2020
+\textbar{} C\# \textbar{} \emph{github.com/pylasnier/functional-studio}
+
+\begin{itemize}
+\tightlist
+\item
+  Designed a very simple, strongly-typed, pure functional programming
+  language, which included some basic functional programming features:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    functions as first-class citizens,
+  \item
+    higher-order functions,
+  \item
+    selection and recursion,
+  \item
+    a basic type system including integers, floats, and bools (no arrays
+    or monads);
+  \end{itemize}
+\item
+  Developed an intermediate representation (IR) that implements this
+  language;
+\item
+  Built a translator, including a tokeniser and a parser that produce
+  the described IR, featuring a rich error system including type
+  checking;
+\item
+  Packaged the whole interpreter with a simple IDE built using Windows
+  Forms.
+\end{itemize}
 
 \end{document}
