@@ -1,0 +1,569 @@
+Pandoc
+  Meta
+    { unMeta =
+        fromList
+          [ ( "address"
+            , MetaInlines
+                [ Str "St.\160Catharine\8217s"
+                , Space
+                , Str "College,"
+                , Space
+                , Str "Cambridge,"
+                , Space
+                , Str "CB2"
+                , Space
+                , Str "1RL"
+                ]
+            )
+          , ( "email" , MetaInlines [ Str "py@lasnier.com" ] )
+          , ( "name"
+            , MetaInlines [ Str "Pascal" , Space , Str "Lasnier" ]
+            )
+          , ( "phone"
+            , MetaInlines
+                [ Str "+44"
+                , Space
+                , Str "7521"
+                , Space
+                , Str "986848"
+                ]
+            )
+          , ( "website" , MetaInlines [ Str "github.com/pylasnier" ] )
+          ]
+    }
+  [ Header
+      1 ( "education" , [ "norule" ] , [] ) [ Str "Education" ]
+  , DefinitionList
+      [ ( [ Str "2020"
+          , Space
+          , Str "\8212"
+          , Space
+          , Str "present"
+          ]
+        , [ [ Para
+                [ Strong
+                    [ Str "University"
+                    , Space
+                    , Str "of"
+                    , Space
+                    , Str "Cambridge,"
+                    , Space
+                    , Str "St.\160Catharine\8217s"
+                    , Space
+                    , Str "College"
+                    ]
+                , LineBreak
+                , Str "BA"
+                , Space
+                , Str "(Hons)"
+                , Space
+                , Str "and"
+                , Space
+                , Str "MEng"
+                , Space
+                , Str "Engineering,"
+                , Space
+                , Str "3"
+                , Superscript [ Str "rd" ]
+                , Space
+                , Str "year"
+                , Space
+                , Str "student"
+                ]
+            , Para
+                [ Str "Years"
+                , Space
+                , Str "1"
+                , Space
+                , Str "and"
+                , Space
+                , Str "2:"
+                , Space
+                , Str "1"
+                , Superscript [ Str "st" ]
+                , Space
+                , Str "(76%"
+                , Space
+                , Str "in"
+                , Space
+                , Str "Year"
+                , Space
+                , Str "2)"
+                ]
+            , Para
+                [ Str "Studying"
+                , Space
+                , Str "for"
+                , Space
+                , Str "Aerospace"
+                , Space
+                , Str "and"
+                , Space
+                , Str "Aerothermal"
+                , Space
+                , Str "Engineering"
+                ]
+            ]
+          ]
+        )
+      , ( [ Str "2018"
+          , Space
+          , Str "\8212"
+          , Space
+          , Str "2020"
+          ]
+        , [ [ Para
+                [ Strong
+                    [ Str "Richard"
+                    , Space
+                    , Str "Huish"
+                    , Space
+                    , Str "College,"
+                    , Space
+                    , Str "Taunton"
+                    ]
+                , Space
+                , Str "(A-Levels)"
+                ]
+            , Div
+                ( "" , [ "widelist" ] , [] )
+                [ BulletList
+                    [ [ Plain [ Str "Mathematics" , Space , Str "(A*)" ]
+                      ]
+                    , [ Plain
+                          [ Str "Further"
+                          , Space
+                          , Str "Mathematics"
+                          , Space
+                          , Str "(A*)"
+                          ]
+                      ]
+                    , [ Plain
+                          [ Str "Computer"
+                          , Space
+                          , Str "Science"
+                          , Space
+                          , Str "(A*)"
+                          ]
+                      ]
+                    , []
+                    , [ Plain [ Str "Physics" , Space , Str "(A*)" ] ]
+                    , []
+                    ]
+                ]
+            ]
+          ]
+        )
+      , ( [ Str "2013"
+          , Space
+          , Str "\8212"
+          , Space
+          , Str "2018"
+          ]
+        , [ [ Para
+                [ Strong
+                    [ Str "Bishop"
+                    , Space
+                    , Str "Fox\8217s"
+                    , Space
+                    , Str "School,"
+                    , Space
+                    , Str "Taunton"
+                    ]
+                , Space
+                , Str "(GCSEs)"
+                ]
+            , Para
+                [ Str "7"
+                , Space
+                , Str "grade"
+                , Space
+                , Str "9s"
+                , Space
+                , Str "(incl.\160Mathematics,"
+                , Space
+                , Str "Physics,"
+                , Space
+                , Str "Computer"
+                , Space
+                , Str "Science,"
+                , Space
+                , Str "and"
+                , Space
+                , Str "English"
+                , Space
+                , Str "Language)"
+                ]
+            ]
+          ]
+        )
+      ]
+  , Header
+      1
+      ( "programming-experience" , [] , [] )
+      [ Str "Programming" , Space , Str "experience" ]
+  , Para
+      [ Strong
+          [ Str "2"
+          , Superscript [ Str "nd" ]
+          , Space
+          , Str "year"
+          , Space
+          , Str "Engineering"
+          , Space
+          , Str "Robot"
+          , Space
+          , Str "Project"
+          ]
+      , Space
+      , Str "|"
+      , Space
+      , Str "2021"
+      , Space
+      , Str "|"
+      , Space
+      , Str "Arduino"
+      , Space
+      , Str "C++"
+      , Space
+      , Str "|"
+      , Space
+      , Emph [ Str "github.com/pylasnier/idp205" ]
+      ]
+  , BulletList
+      [ [ Plain
+            [ Str "Lead"
+            , Space
+            , Str "software"
+            , Space
+            , Str "component"
+            , Space
+            , Str "of"
+            , Space
+            , Str "six-person"
+            , Space
+            , Str "team"
+            , Space
+            , Str "group"
+            , Space
+            , Str "project"
+            , Space
+            , Str "to"
+            , Space
+            , Str "design"
+            , Space
+            , Str "an"
+            , Space
+            , Str "autonomous"
+            , Space
+            , Str "robot;"
+            ]
+        ]
+      , [ Plain
+            [ Str "Task"
+            , Space
+            , Str "involved"
+            , Space
+            , Str "navigation"
+            , Space
+            , Str "within"
+            , Space
+            , Str "an"
+            , Space
+            , Str "arena"
+            , Space
+            , Str "to"
+            , Space
+            , Str "search"
+            , Space
+            , Str "and"
+            , Space
+            , Str "collect"
+            , Space
+            , Str "small"
+            , Space
+            , Str "dummies;"
+            ]
+        ]
+      , [ Plain
+            [ Str "Developed"
+            , Space
+            , Str "an"
+            , Space
+            , Str "understanding"
+            , Space
+            , Str "for"
+            , Space
+            , Str "the"
+            , Space
+            , Str "limitations"
+            , Space
+            , Str "of"
+            , Space
+            , Str "microcontrollers"
+            , Space
+            , Str "and"
+            , Space
+            , Str "how"
+            , Space
+            , Str "to"
+            , Space
+            , Str "work"
+            , Space
+            , Str "around"
+            , Space
+            , Str "them,"
+            , Space
+            , Str "especially"
+            , Space
+            , Str "in"
+            , Space
+            , Str "memory;"
+            ]
+        ]
+      , [ Plain
+            [ Str "Learnt"
+            , Space
+            , Str "alternatives"
+            , Space
+            , Str "for"
+            , Space
+            , Str "debugging"
+            , Space
+            , Str "a"
+            , Space
+            , Str "microcontroller"
+            , Space
+            , Str "system"
+            , Space
+            , Str "when"
+            , Space
+            , Str "breakpoints,"
+            , Space
+            , Str "watches,"
+            , Space
+            , Str "and"
+            , Space
+            , Str "other"
+            , Space
+            , Str "debugging"
+            , Space
+            , Str "features"
+            , Space
+            , Str "are"
+            , Space
+            , Str "not"
+            , Space
+            , Str "available."
+            ]
+        ]
+      ]
+  , Para
+      [ Strong
+          [ Str "A-Level"
+          , Space
+          , Str "Computer"
+          , Space
+          , Str "Science"
+          , Space
+          , Str "NEA"
+          ]
+      , Space
+      , Str "|"
+      , Space
+      , Str "2019"
+      , Space
+      , Str "\8212"
+      , Space
+      , Str "2020"
+      , Space
+      , Str "|"
+      , Space
+      , Str "C#"
+      , Space
+      , Str "|"
+      , Space
+      , Emph [ Str "github.com/pylasnier/functional-studio" ]
+      ]
+  , BulletList
+      [ [ Plain
+            [ Str "Designed"
+            , Space
+            , Str "a"
+            , Space
+            , Str "very"
+            , Space
+            , Str "simple,"
+            , Space
+            , Str "strongly-typed,"
+            , Space
+            , Str "pure"
+            , Space
+            , Str "functional"
+            , Space
+            , Str "programming"
+            , Space
+            , Str "language,"
+            , Space
+            , Str "which"
+            , Space
+            , Str "included"
+            , Space
+            , Str "some"
+            , Space
+            , Str "basic"
+            , Space
+            , Str "functional"
+            , Space
+            , Str "programming"
+            , Space
+            , Str "features:"
+            ]
+        , BulletList
+            [ [ Plain
+                  [ Str "functions"
+                  , Space
+                  , Str "as"
+                  , Space
+                  , Str "first-class"
+                  , Space
+                  , Str "citizens,"
+                  ]
+              ]
+            , [ Plain [ Str "higher-order" , Space , Str "functions," ]
+              ]
+            , [ Plain
+                  [ Str "selection"
+                  , Space
+                  , Str "and"
+                  , Space
+                  , Str "recursion,"
+                  ]
+              ]
+            , [ Plain
+                  [ Str "a"
+                  , Space
+                  , Str "basic"
+                  , Space
+                  , Str "type"
+                  , Space
+                  , Str "system"
+                  , Space
+                  , Str "including"
+                  , Space
+                  , Str "integers,"
+                  , Space
+                  , Str "floats,"
+                  , Space
+                  , Str "and"
+                  , Space
+                  , Str "bools"
+                  , Space
+                  , Str "(no"
+                  , Space
+                  , Str "arrays"
+                  , Space
+                  , Str "or"
+                  , Space
+                  , Str "monads);"
+                  ]
+              ]
+            ]
+        ]
+      , [ Plain
+            [ Str "Developed"
+            , Space
+            , Str "an"
+            , Space
+            , Str "intermediate"
+            , Space
+            , Str "representation"
+            , Space
+            , Str "(IR)"
+            , Space
+            , Str "that"
+            , Space
+            , Str "implements"
+            , Space
+            , Str "this"
+            , Space
+            , Str "language;"
+            ]
+        ]
+      , [ Plain
+            [ Str "Built"
+            , Space
+            , Str "a"
+            , Space
+            , Str "translator,"
+            , Space
+            , Str "including"
+            , Space
+            , Str "a"
+            , Space
+            , Str "tokeniser"
+            , Space
+            , Str "and"
+            , Space
+            , Str "a"
+            , Space
+            , Str "parser"
+            , Space
+            , Str "that"
+            , Space
+            , Str "produce"
+            , Space
+            , Str "the"
+            , Space
+            , Str "described"
+            , Space
+            , Str "IR,"
+            , Space
+            , Str "featuring"
+            , Space
+            , Str "a"
+            , Space
+            , Str "rich"
+            , Space
+            , Str "error"
+            , Space
+            , Str "system"
+            , Space
+            , Str "including"
+            , Space
+            , Str "type"
+            , Space
+            , Str "checking;"
+            ]
+        ]
+      , [ Plain
+            [ Str "Packaged"
+            , Space
+            , Str "the"
+            , Space
+            , Str "whole"
+            , Space
+            , Str "interpreter"
+            , Space
+            , Str "with"
+            , Space
+            , Str "a"
+            , Space
+            , Str "simple"
+            , Space
+            , Str "IDE"
+            , Space
+            , Str "built"
+            , Space
+            , Str "using"
+            , Space
+            , Str "Windows"
+            , Space
+            , Str "Forms."
+            ]
+        ]
+      ]
+  , RawBlock
+      (Format "html")
+      "<!---\n- IDP\n- CompSci A Level\n- Year 9 calculator\n--->"
+  ]

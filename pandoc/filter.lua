@@ -8,7 +8,7 @@ if FORMAT:match 'latex' then
 				-- 		return '' end end
 				-- 	return '\n\n\\vspace{-1.5ex}'
 				-- 	       .. '\\rule{\\textwidth}{0.8pt}' end)()
-				.. (elem.classes:find('norule', 1) == nil and
+				.. (not elem.classes:includes('norule', 1) and
 				       '\n\n\\vspace{-1.5ex}'
 					   .. '\\rule{\\textwidth}{0.8pt}'
 				   or
@@ -22,7 +22,7 @@ if FORMAT:match 'latex' then
 	end
 
 	function Div (elem)
-		if elem.classes:find('widelist', 1) ~= nil then
+		if elem.classes:includes('widelist', 1) then
 			return
 			{
 				pandoc.RawInline('latex',
@@ -37,16 +37,26 @@ if FORMAT:match 'latex' then
 			}
 		end
 	end
+end
 
-	-- function DefinitionList (elem)
-	-- 	return
-	-- 	{
-	-- 		pandoc.RawInline('latex', '\\begingroup\n'
-	-- 		    .. '\\setlist{align=right}\n'
-	-- 			.. '\\setlist{leftmargin=10mm}\n'
-	-- 			.. '\\setlist{labelsep=5mm}\n'),
-	-- 		elem,
-	-- 		pandoc.RawInline('latex', '\\endgroup\n')
-	-- 	}
-	-- end
+if FORMAT:match 'gfm' then
+	function Header (elem)
+		elem.level = elem.level + 1
+		return elem
+	end
+	
+	function Div (elem)
+		if elem.classes:includes('widelist', 1) then
+			return elem.content:walk
+			{
+				BulletList = function (listelem)
+					listelem.content = listelem.content:filter (
+						function (item)
+							return pandoc.utils.stringify(item) ~= ''
+						end)
+					return listelem
+				end
+			}
+		end
+	end
 end

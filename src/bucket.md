@@ -24,9 +24,9 @@ BA (Hons) and MEng Engineering, 3^rd^ year student
     - Mathematics (A\*)
     - Further Mathematics (A\*)
     - Computer Science (A\*)
-    - \ 
+    -  
     - Physics (A\*)
-    - \ 
+    -  
     :::
 
 2013 --- 2018
