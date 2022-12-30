@@ -32,7 +32,8 @@ Language)
 
 ## Programming experience
 
-### **2<sup>nd</sup> year Engineering Robot Project** \| 2021 \| Arduino C++ \| [*github.com/pylasnier/idp205*](https://github.com/pylasnier/idp205)
+**2<sup>nd</sup> year Engineering Robot Project** \| 2021 \| Arduino C++
+\| [*github.com/pylasnier/idp205*](https://github.com/pylasnier/idp205)
 
 - Lead software component of six-person team group project to design an
   autonomous robot;
@@ -43,7 +44,8 @@ Language)
 - Learnt alternatives for debugging a microcontroller system when
   breakpoints, watches, and other debugging features are not available.
 
-### **A-Level Computer Science NEA** \| 2019 — 2020 \| C# \| [*github.com/pylasnier/functional-studio*](https://github.com/pylasnier/functional-studio)
+**A-Level Computer Science NEA** \| 2019 — 2020 \| C# \|
+[*github.com/pylasnier/functional-studio*](https://github.com/pylasnier/functional-studio)
 
 - Designed an explicitly simply typed pure functional programming
   language, featuring:
@@ -83,7 +85,7 @@ Duke of Edinburgh Award: Bronze (2019), Gold (ongoing)
 
 Volunteer at local library (Taunton)
 
-  
+------------------------------------------------------------------------
 
 <div class="foot">
 

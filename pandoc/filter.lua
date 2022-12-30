@@ -66,8 +66,12 @@ end
 
 if FORMAT:match 'gfm' then
 	function Header (elem)
-		elem.level = elem.level + 1
-		return elem
+		if elem.level == 1 then
+			elem.level = 2
+			return elem
+		else 
+			return pandoc.Para(elem.content)
+		end
 	end
 	
 	function Div (elem)
@@ -85,7 +89,7 @@ if FORMAT:match 'gfm' then
 		elseif elem.classes:includes('foot', 1) then
 			return
 			{
-				pandoc.LineBreak({}),
+				pandoc.HorizontalRule(),
 				elem:walk
 				{
 					Str = function (str) return pandoc.Strong(str) end
