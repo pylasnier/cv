@@ -728,4 +728,16 @@ Pandoc
           ]
         )
       ]
+  , Div
+      ( "" , [ "foot" ] , [] )
+      [ Para
+          [ Str "Referees"
+          , Space
+          , Str "available"
+          , Space
+          , Str "on"
+          , Space
+          , Str "request"
+          ]
+      ]
   ]

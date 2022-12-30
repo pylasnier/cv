@@ -98,3 +98,11 @@ Badminton, Olympic-style Weightlifting, Aikido (Brown belt)
 Duke of Edinburgh Award: Bronze (2019), Gold (ongoing)
 
 Volunteer at local library (Taunton)
+
+  
+
+<div class="foot">
+
+**Referees** **available** **on** **request**
+
+</div>
