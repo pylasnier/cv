@@ -176,7 +176,7 @@ Pandoc
             , Para
                 [ Str "7"
                 , Space
-                , Str "grade"
+                , Str "Grade"
                 , Space
                 , Str "9s"
                 , Space
@@ -202,7 +202,12 @@ Pandoc
       1
       ( "programming-experience" , [] , [] )
       [ Str "Programming" , Space , Str "experience" ]
-  , Para
+  , Header
+      2
+      ( "nd-year-engineering-robot-project-2021-arduino-c-github.compylasnieridp205"
+      , []
+      , []
+      )
       [ Strong
           [ Str "2"
           , Superscript [ Str "nd" ]
@@ -228,7 +233,10 @@ Pandoc
       , Space
       , Str "|"
       , Space
-      , Emph [ Str "github.com/pylasnier/idp205" ]
+      , Link
+          ( "" , [] , [] )
+          [ Emph [ Str "github.com/pylasnier/idp205" ] ]
+          ( "https://github.com/pylasnier/idp205" , "" )
       ]
   , BulletList
       [ [ Plain
@@ -358,7 +366,12 @@ Pandoc
             ]
         ]
       ]
-  , Para
+  , Header
+      2
+      ( "a-level-computer-science-nea-2019-2020-c-github.compylasnierfunctional-studio"
+      , []
+      , []
+      )
       [ Strong
           [ Str "A-Level"
           , Space
@@ -383,19 +396,22 @@ Pandoc
       , Space
       , Str "|"
       , Space
-      , Emph [ Str "github.com/pylasnier/functional-studio" ]
+      , Link
+          ( "" , [] , [] )
+          [ Emph [ Str "github.com/pylasnier/functional-studio" ] ]
+          ( "https://github.com/pylasnier/functional-studio" , "" )
       ]
   , BulletList
       [ [ Plain
             [ Str "Designed"
             , Space
-            , Str "a"
+            , Str "an"
             , Space
-            , Str "very"
+            , Str "explicitly"
             , Space
-            , Str "simple,"
+            , Str "simply"
             , Space
-            , Str "strongly-typed,"
+            , Str "typed"
             , Space
             , Str "pure"
             , Space
@@ -405,19 +421,7 @@ Pandoc
             , Space
             , Str "language,"
             , Space
-            , Str "which"
-            , Space
-            , Str "included"
-            , Space
-            , Str "some"
-            , Space
-            , Str "basic"
-            , Space
-            , Str "functional"
-            , Space
-            , Str "programming"
-            , Space
-            , Str "features:"
+            , Str "featuring:"
             ]
         , BulletList
             [ [ Plain
@@ -427,10 +431,14 @@ Pandoc
                   , Space
                   , Str "first-class"
                   , Space
-                  , Str "citizens,"
+                  , Str "citizens"
+                  , Space
+                  , Str "and"
+                  , Space
+                  , Str "higher-order"
+                  , Space
+                  , Str "functions,"
                   ]
-              ]
-            , [ Plain [ Str "higher-order" , Space , Str "functions," ]
               ]
             , [ Plain
                   [ Str "selection"
@@ -459,13 +467,37 @@ Pandoc
                   , Space
                   , Str "bools"
                   , Space
-                  , Str "(no"
+                  , Str "(arrays"
                   , Space
-                  , Str "arrays"
+                  , Str "are"
+                  , Space
+                  , Str "possible"
+                  , Space
+                  , Str "as"
+                  , Space
+                  , Str "indexing"
+                  , Space
+                  , Str "functions,"
+                  , Space
+                  , Str "but"
+                  , Space
+                  , Str "no"
+                  , Space
+                  , Str "polymorphism"
                   , Space
                   , Str "or"
                   , Space
-                  , Str "monads);"
+                  , Str "type"
+                  , Space
+                  , Str "constructors"
+                  , Space
+                  , Str "other"
+                  , Space
+                  , Str "than"
+                  , Space
+                  , Str "function"
+                  , Space
+                  , Str "types);"
                   ]
               ]
             ]
@@ -563,7 +595,137 @@ Pandoc
             ]
         ]
       ]
-  , RawBlock
-      (Format "html")
-      "<!---\n- IDP\n- CompSci A Level\n- Year 9 calculator\n--->"
+  , Header
+      1
+      ( "activities-and-interests" , [] , [] )
+      [ Str "Activities"
+      , Space
+      , Str "and"
+      , Space
+      , Str "Interests"
+      ]
+  , DefinitionList
+      [ ( [ Str "Languages" ]
+        , [ [ Para
+                [ Str "English"
+                , Space
+                , Str "(native),"
+                , Space
+                , Str "French"
+                , Space
+                , Str "(proficient,"
+                , Space
+                , Str "GCSE"
+                , Space
+                , Str "Grade"
+                , Space
+                , Str "9),"
+                , Space
+                , Str "Japanese"
+                , Space
+                , Str "(beginner)"
+                ]
+            ]
+          ]
+        )
+      , ( [ Str "Computing" ]
+        , [ [ Para
+                [ Str "Linux"
+                , Space
+                , Str "user,"
+                , Space
+                , Str "command"
+                , Space
+                , Str "line-confident"
+                ]
+            , Para
+                [ Str "Programming:"
+                , Space
+                , Str "C(++),"
+                , Space
+                , Str "C#,"
+                , Space
+                , Str "Python"
+                ]
+            ]
+          ]
+        )
+      , ( [ Str "Music" ]
+        , [ [ Para
+                [ Str "ABRSM"
+                , Space
+                , Str "Grade"
+                , Space
+                , Str "6"
+                , Space
+                , Str "Piano"
+                , Space
+                , Str "(Merit)"
+                ]
+            , Para
+                [ Str "ABRSM"
+                , Space
+                , Str "Grade"
+                , Space
+                , Str "5"
+                , Space
+                , Str "Music"
+                , Space
+                , Str "Theory"
+                , Space
+                , Str "(Merit)"
+                ]
+            ]
+          ]
+        )
+      , ( [ Str "Sports" ]
+        , [ [ Para
+                [ Str "Badminton,"
+                , Space
+                , Str "Olympic-style"
+                , Space
+                , Str "Weightlifting,"
+                , Space
+                , Str "Aikido"
+                , Space
+                , Str "(Brown"
+                , Space
+                , Str "belt)"
+                ]
+            ]
+          ]
+        )
+      , ( [ Str "Extra-curricular" ]
+        , [ [ Para
+                [ Str "Duke"
+                , Space
+                , Str "of"
+                , Space
+                , Str "Edinburgh"
+                , Space
+                , Str "Award:"
+                , Space
+                , Str "Bronze"
+                , Space
+                , Str "(2019),"
+                , Space
+                , Str "Gold"
+                , Space
+                , Str "(ongoing)"
+                ]
+            , Para
+                [ Str "Volunteer"
+                , Space
+                , Str "at"
+                , Space
+                , Str "local"
+                , Space
+                , Str "library"
+                , Space
+                , Str "(Taunton)"
+                ]
+            ]
+          ]
+        )
+      ]
   ]

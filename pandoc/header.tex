@@ -1,9 +1,14 @@
 \usepackage{enumitem}
 \usepackage{multicol}
 
-\setlist[description]{style=multiline, leftmargin=40mm, labelsep=5mm}
-\setlist[itemize]{noitemsep}
-\setlength{\multicolsep}{\parskip}
+\newcommand{\itemspace}{0.8ex}
+\newcommand{\parspace}{0.5ex}
+
+\setlist[description]{style=multiline, leftmargin=40mm, labelsep=5mm, itemsep=\itemspace}
+\setlist[itemize]{topsep=\parspace}
+\setlist[itemize, 1]{topsep=0mm}
+\setlength{\multicolsep}{\parspace}
+\setlength{\parskip}{\parspace}
 
 \newcommand{\ruledheader}[2]{%
 \begingroup

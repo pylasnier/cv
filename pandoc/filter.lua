@@ -18,7 +18,21 @@ if FORMAT:match 'latex' then
 				.. pandoc.utils.stringify(elem.content)
 				.. '}'
 				.. '\\end{Large}')
+		elseif elem.level == 2 then
+			return
+			{
+				pandoc.RawInline('latex', '\\vspace{\\itemspace}'),
+				pandoc.Para(elem.content)
+			}
 		end
+	end
+
+	function DefinitionList (elem)
+		return
+		{
+			pandoc.RawInline('latex', '\\vspace{\\itemspace}'),
+			elem
+		}
 	end
 
 	function Div (elem)
@@ -34,6 +48,17 @@ if FORMAT:match 'latex' then
 			        '\\end{multicols}\n'
 					.. '\\vspace{-\\parskip}'
 					.. '\\endgroup')
+			}
+		elseif elem.classes:includes('foot', 1) then
+			return
+			{
+				pandoc.RawInline('latex', '\\vspace{2.0ex}'
+				.. '\\begin{center}'),
+				elem:walk
+				{
+					Str = function (str) return pandoc.Strong(str) end
+				},
+				pandoc.RawInline('latex', '\\end{center}')
 			}
 		end
 	end
@@ -57,6 +82,23 @@ if FORMAT:match 'gfm' then
 					return listelem
 				end
 			}
+		elseif elem.classes:includes('foot', 1) then
+			return
+			{
+				pandoc.LineBreak({}),
+				elem:walk
+				{
+					Str = function (str) return pandoc.Strong(str) end
+				}
+			}
 		end
+	end
+
+	function DefinitionList (elem)
+		for i, item in ipairs(elem.content) do
+			item[1] = pandoc.Strong(item[1])
+		end
+
+		return elem
 	end
 end

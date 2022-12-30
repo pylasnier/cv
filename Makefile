@@ -3,6 +3,8 @@ SRCDIR=src
 PANDOCDIR=pandoc
 include target.conf
 
+all: pdf readme native
+
 pdf: tex
 	xelatex -output-directory=$(BUILDDIR) \
 		-interaction=batchmode \

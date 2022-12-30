@@ -45,9 +45,14 @@
 \usepackage{enumitem}
 \usepackage{multicol}
 
-\setlist[description]{style=multiline, leftmargin=40mm, labelsep=5mm}
-\setlist[itemize]{noitemsep}
-\setlength{\multicolsep}{\parskip}
+\newcommand{\itemspace}{0.8ex}
+\newcommand{\parspace}{0.5ex}
+
+\setlist[description]{style=multiline, leftmargin=40mm, labelsep=5mm, itemsep=\itemspace}
+\setlist[itemize]{topsep=\parspace}
+\setlist[itemize, 1]{topsep=0mm}
+\setlength{\multicolsep}{\parspace}
+\setlength{\parskip}{\parspace}
 
 \newcommand{\ruledheader}[2]{%
 \begingroup
@@ -98,7 +103,7 @@
 
 \begin{flushright}
 \mbox{\rule[-6mm]{0.8pt}{14mm}\hspace{3mm}%
-\parbox{40mm}{\email\\\phone\\\website}}
+\parbox{40mm}{\email\\\phone\\\href{https://\website}{\website}}}
 \end{flushright}
 
 \ifdefined\address
@@ -110,6 +115,8 @@
 \begin{Large}\vspace{2ex}
 
 \ruledheader{cyan!50!teal}{Education}\end{Large}
+
+\vspace{\itemspace}
 
 \begin{description}
 \item[2020 --- present]
@@ -145,7 +152,7 @@ Studying for Aerospace and Aerothermal Engineering
 \item[2013 --- 2018]
 \textbf{Bishop Fox's School, Taunton} (GCSEs)
 
-7 grade 9s (incl.~Mathematics, Physics, Computer Science, and English
+7 Grade 9s (incl.~Mathematics, Physics, Computer Science, and English
 Language)
 \end{description}
 
@@ -155,9 +162,11 @@ Language)
 
 \ruledheader{cyan!50!teal}{Programming experience}\end{Large}
 
+\vspace{\itemspace}
+
 \textbf{2\textsuperscript{nd} year Engineering Robot Project} \textbar{}
 2021 \textbar{} Arduino C++ \textbar{}
-\emph{github.com/pylasnier/idp205}
+\href{https://github.com/pylasnier/idp205}{\emph{github.com/pylasnier/idp205}}
 
 \begin{itemize}
 \tightlist
@@ -175,26 +184,28 @@ Language)
   breakpoints, watches, and other debugging features are not available.
 \end{itemize}
 
+\vspace{\itemspace}
+
 \textbf{A-Level Computer Science NEA} \textbar{} 2019 --- 2020
-\textbar{} C\# \textbar{} \emph{github.com/pylasnier/functional-studio}
+\textbar{} C\# \textbar{}
+\href{https://github.com/pylasnier/functional-studio}{\emph{github.com/pylasnier/functional-studio}}
 
 \begin{itemize}
 \tightlist
 \item
-  Designed a very simple, strongly-typed, pure functional programming
-  language, which included some basic functional programming features:
+  Designed an explicitly simply typed pure functional programming
+  language, featuring:
 
   \begin{itemize}
   \tightlist
   \item
-    functions as first-class citizens,
-  \item
-    higher-order functions,
+    functions as first-class citizens and higher-order functions,
   \item
     selection and recursion,
   \item
-    a basic type system including integers, floats, and bools (no arrays
-    or monads);
+    a basic type system including integers, floats, and bools (arrays
+    are possible as indexing functions, but no polymorphism or type
+    constructors other than function types);
   \end{itemize}
 \item
   Developed an intermediate representation (IR) that implements this
@@ -207,5 +218,38 @@ Language)
   Packaged the whole interpreter with a simple IDE built using Windows
   Forms.
 \end{itemize}
+
+\begin{Large}
+
+\vspace{-1.5ex}\rule{\textwidth}{0.8pt}\vspace{2ex}
+
+\ruledheader{cyan!50!teal}{Activities and Interests}\end{Large}
+
+\vspace{\itemspace}
+
+\begin{description}
+\item[Languages]
+English (native), French (proficient, GCSE Grade 9), Japanese (beginner)
+\item[Computing]
+Linux user, command line-confident
+
+Programming: C(++), C\#, Python
+\item[Music]
+ABRSM Grade 6 Piano (Merit)
+
+ABRSM Grade 5 Music Theory (Merit)
+\item[Sports]
+Badminton, Olympic-style Weightlifting, Aikido (Brown belt)
+\item[Extra-curricular]
+Duke of Edinburgh Award: Bronze (2019), Gold (ongoing)
+
+Volunteer at local library (Taunton)
+\end{description}
+
+\vspace{2.0ex}\begin{center}
+
+\textbf{Referees} \textbf{available} \textbf{on} \textbf{request}
+
+\end{center}
 
 \end{document}

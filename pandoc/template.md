@@ -21,7 +21,7 @@ $if(phone)$
 $phone$  
 $endif$
 $if(website)$
-$website$
+[$website$](https://$website$)
 $endif$
 $if(address)$
 
