@@ -36,7 +36,7 @@ Pandoc
   , DefinitionList
       [ ( [ Str "2020"
           , Space
-          , Str "\8212"
+          , Str "\8211"
           , Space
           , Str "present"
           ]
@@ -53,15 +53,9 @@ Pandoc
                     , Str "College"
                     ]
                 , LineBreak
-                , Str "BA"
+                , Str "Engineering"
                 , Space
-                , Str "(Hons)"
-                , Space
-                , Str "and"
-                , Space
-                , Str "MEng"
-                , Space
-                , Str "Engineering,"
+                , Str "MEng,"
                 , Space
                 , Str "3"
                 , Superscript [ Str "rd" ]
@@ -108,7 +102,7 @@ Pandoc
         )
       , ( [ Str "2018"
           , Space
-          , Str "\8212"
+          , Str "\8211"
           , Space
           , Str "2020"
           ]
@@ -156,7 +150,7 @@ Pandoc
         )
       , ( [ Str "2013"
           , Space
-          , Str "\8212"
+          , Str "\8211"
           , Space
           , Str "2018"
           ]
@@ -240,11 +234,9 @@ Pandoc
       ]
   , BulletList
       [ [ Plain
-            [ Str "Lead"
+            [ Str "Software"
             , Space
-            , Str "software"
-            , Space
-            , Str "component"
+            , Str "lead"
             , Space
             , Str "of"
             , Space
@@ -300,7 +292,7 @@ Pandoc
             , Space
             , Str "understanding"
             , Space
-            , Str "for"
+            , Str "of"
             , Space
             , Str "the"
             , Space
@@ -324,9 +316,9 @@ Pandoc
             , Space
             , Str "especially"
             , Space
-            , Str "in"
+            , Str "memory"
             , Space
-            , Str "memory;"
+            , Str "constraints;"
             ]
         ]
       , [ Plain
@@ -386,7 +378,7 @@ Pandoc
       , Space
       , Str "2019"
       , Space
-      , Str "\8212"
+      , Str "\8211"
       , Space
       , Str "2020"
       , Space

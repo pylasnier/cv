@@ -7,16 +7,16 @@ address: St. Catharine's College, Cambridge, CB2 1RL
 ---
 # Education{.norule}
 
-2020 --- present
+2020 -- present
 
 :   **University of Cambridge, St. Catharine's College**\
-BA (Hons) and MEng Engineering, 3^rd^ year student
+Engineering MEng, 3^rd^ year student
 
     Years 1 and 2: 1^st^ (76% in Year 2)
 
     Studying for Aerospace and Aerothermal Engineering
 
-2018 --- 2020
+2018 -- 2020
 
 :   **Richard Huish College, Taunton** (A-Levels)
 
@@ -29,7 +29,7 @@ BA (Hons) and MEng Engineering, 3^rd^ year student
     -  
     :::
 
-2013 --- 2018
+2013 -- 2018
 
 :   **Bishop Fox's School, Taunton** (GCSEs)
 
@@ -39,12 +39,12 @@ BA (Hons) and MEng Engineering, 3^rd^ year student
 
 ## **2^nd^ year Engineering Robot Project** | 2021 | Arduino C++ | [*github.com/pylasnier/idp205*](https://github.com/pylasnier/idp205)
 
-- Lead software component of six-person team group project to design an autonomous robot;
+- Software lead of six-person team group project to design an autonomous robot;
 - Task involved navigation within an arena to search and collect small dummies;
-- Developed an understanding for the limitations of microcontrollers and how to work around them, especially in memory;
+- Developed an understanding of the limitations of microcontrollers and how to work around them, especially memory constraints;
 - Learnt alternatives for debugging a microcontroller system when breakpoints, watches, and other debugging features are not available.
 
-## **A-Level Computer Science NEA** | 2019 --- 2020 | C# | [*github.com/pylasnier/functional-studio*](https://github.com/pylasnier/functional-studio)
+## **A-Level Computer Science NEA** | 2019 -- 2020 | C# | [*github.com/pylasnier/functional-studio*](https://github.com/pylasnier/functional-studio)
 
 - Designed an explicitly simply typed pure functional programming language, featuring:
     - functions as first-class citizens and higher-order functions,
