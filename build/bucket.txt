@@ -53,41 +53,44 @@ Pandoc
                     , Str "College"
                     ]
                 , LineBreak
-                , Str "Engineering"
+                , Str "Engineering,"
                 , Space
-                , Str "MEng,"
-                , Space
-                , Str "3"
-                , Superscript [ Str "rd" ]
+                , Str "4"
+                , Superscript [ Str "th" ]
                 , Space
                 , Str "year"
                 , Space
                 , Str "student"
                 ]
             , Para
-                [ Str "Years"
+                [ Str "Class"
                 , Space
-                , Str "1"
+                , Str "I"
                 , Space
-                , Str "and"
+                , Str "BA"
                 , Space
-                , Str "2:"
+                , Str "(rank"
                 , Space
-                , Str "1"
-                , Superscript [ Str "st" ]
+                , Str "40"
                 , Space
-                , Str "(76%"
+                , Str "of"
+                , Space
+                , Str "277"
                 , Space
                 , Str "in"
                 , Space
                 , Str "Year"
                 , Space
-                , Str "2)"
+                , Str "3)"
                 ]
             , Para
                 [ Str "Studying"
                 , Space
                 , Str "for"
+                , Space
+                , Str "MEng"
+                , Space
+                , Str "in"
                 , Space
                 , Str "Aerospace"
                 , Space
@@ -96,6 +99,22 @@ Pandoc
                 , Str "Aerothermal"
                 , Space
                 , Str "Engineering"
+                , LineBreak
+                , Str "(modules"
+                , Space
+                , Str "incl.\160Computer"
+                , Space
+                , Str "Systems"
+                , Space
+                , Str "and"
+                , Space
+                , Str "Algorithms"
+                , Space
+                , Str "&"
+                , Space
+                , Str "Data"
+                , Space
+                , Str "Structures)"
                 ]
             ]
           ]
@@ -194,8 +213,211 @@ Pandoc
       ]
   , Header
       1
-      ( "programming-experience" , [] , [] )
-      [ Str "Programming" , Space , Str "experience" ]
+      ( "work-experience" , [] , [] )
+      [ Str "Work" , Space , Str "experience" ]
+  , Header
+      2
+      ( "siemens-cambridge-software-internship-2023-c-rust-wasm-typescript"
+      , []
+      , []
+      )
+      [ Strong
+          [ Str "Siemens"
+          , Space
+          , Str "Cambridge"
+          , Space
+          , Str "Software"
+          , Space
+          , Str "Internship"
+          ]
+      , Space
+      , Str "|"
+      , Space
+      , Str "2023"
+      , Space
+      , Str "|"
+      , Space
+      , Str "C++,"
+      , Space
+      , Str "Rust"
+      , Space
+      , Str "(WASM),"
+      , Space
+      , Str "TypeScript"
+      ]
+  , BulletList
+      [ [ Plain
+            [ Str "12-week"
+            , Space
+            , Str "summer"
+            , Space
+            , Str "internship"
+            , Space
+            , Str "at"
+            , Space
+            , Str "Cambridge"
+            , Space
+            , Str "office;"
+            ]
+        ]
+      , [ Plain
+            [ Str "Contributed"
+            , Space
+            , Str "to"
+            , Space
+            , Str "Siemens"
+            , Space
+            , Str "NX"
+            , Space
+            , Str "C++"
+            , Space
+            , Str "codebase;"
+            ]
+        ]
+      , [ Plain
+            [ Str "Worked"
+            , Space
+            , Str "with"
+            , Space
+            , Str "dev"
+            , Space
+            , Str "tools"
+            , Space
+            , Str "team:"
+            ]
+        , BulletList
+            [ [ Plain
+                  [ Str "Wrote"
+                  , Space
+                  , Str "VSCode"
+                  , Space
+                  , Str "extensions;"
+                  ]
+              ]
+            , [ Plain
+                  [ Str "Implemented"
+                  , Space
+                  , Str "asynchronous"
+                  , Space
+                  , Str "client-server"
+                  , Space
+                  , Str "system"
+                  , Space
+                  , Str "in"
+                  , Space
+                  , Str "Rust"
+                  , Space
+                  , Str "using"
+                  , Space
+                  , Str "WebSockets."
+                  ]
+              ]
+            ]
+        ]
+      ]
+  , Header
+      1
+      ( "project-experience" , [] , [] )
+      [ Str "Project" , Space , Str "experience" ]
+  , Header
+      2
+      ( "th-year-engineering-project-2023-ongoing-python"
+      , []
+      , []
+      )
+      [ Strong
+          [ Str "4"
+          , Superscript [ Str "th" ]
+          , Space
+          , Str "year"
+          , Space
+          , Str "Engineering"
+          , Space
+          , Str "Project"
+          ]
+      , Space
+      , Str "|"
+      , Space
+      , Str "2023,"
+      , Space
+      , Str "ongoing"
+      , Space
+      , Str "|"
+      , Space
+      , Str "Python"
+      ]
+  , BulletList
+      [ [ Plain
+            [ Str "Individual"
+            , Space
+            , Str "project"
+            , Space
+            , Str "for"
+            , Space
+            , Str "MEng;"
+            ]
+        ]
+      , [ Plain
+            [ Str "Modelling"
+            , Space
+            , Str "of"
+            , Space
+            , Str "1-D"
+            , Space
+            , Str "thermoacoustics"
+            , Space
+            , Str "networks:"
+            ]
+        , BulletList
+            [ [ Plain
+                  [ Str "Ongoing"
+                  , Space
+                  , Str "design"
+                  , Space
+                  , Str "challenge"
+                  , Space
+                  , Str "involving"
+                  , Space
+                  , Str "thermodynamics"
+                  , Space
+                  , Str "problem;"
+                  ]
+              ]
+            , [ Plain
+                  [ Str "Involves"
+                  , Space
+                  , Str "constructing"
+                  , Space
+                  , Str "system"
+                  , Space
+                  , Str "as"
+                  , Space
+                  , Str "linear"
+                  , Space
+                  , Str "algebra"
+                  , Space
+                  , Str "problem;"
+                  ]
+              ]
+            , [ Plain
+                  [ Str "Using"
+                  , Space
+                  , Code ( "" , [] , [] ) "numpy"
+                  , Space
+                  , Str "Python"
+                  , Space
+                  , Str "library"
+                  , Space
+                  , Str "to"
+                  , Space
+                  , Str "solve"
+                  , Space
+                  , Str "system."
+                  ]
+              ]
+            ]
+        ]
+      ]
   , Header
       2
       ( "nd-year-engineering-robot-project-2021-arduino-c-github.compylasnieridp205"
@@ -358,6 +580,7 @@ Pandoc
             ]
         ]
       ]
+  , RawBlock (Format "tex") "\\pagebreak"
   , Header
       2
       ( "a-level-computer-science-nea-2019-2020-c-github.compylasnierfunctional-studio"
@@ -611,11 +834,7 @@ Pandoc
                 , Space
                 , Str "Grade"
                 , Space
-                , Str "9),"
-                , Space
-                , Str "Japanese"
-                , Space
-                , Str "(beginner)"
+                , Str "9)"
                 ]
             ]
           ]
@@ -672,18 +891,21 @@ Pandoc
         )
       , ( [ Str "Sports" ]
         , [ [ Para
-                [ Str "Badminton,"
+                [ Str "Badminton"
                 , Space
-                , Str "Olympic-style"
+                , Str "(University"
                 , Space
-                , Str "Weightlifting,"
+                , Str "Development"
                 , Space
-                , Str "Aikido"
+                , Str "Squad"
                 , Space
-                , Str "(Brown"
+                , Str "and"
                 , Space
-                , Str "belt)"
+                , Str "college"
+                , Space
+                , Str "captain)"
                 ]
+            , Para [ Str "Olympic-style" , Space , Str "Weightlifting" ]
             ]
           ]
         )

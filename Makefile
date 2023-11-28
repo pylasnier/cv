@@ -22,7 +22,7 @@ tex:
 		-V geometry:margin=0.6in \
 		-V mainfont:"TeX Gyre Heros" \
 		-V fontsize:11pt \
-		--to=latex \
+		--to=latex-smart \
 		--lua-filter=$(PANDOCDIR)/filter.lua \
 		-s --output=$(BUILDDIR)/$(TARGET).tex
 

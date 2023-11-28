@@ -1,0 +1,2 @@
+- Eventually add HTML output option to Makefile and corresponding CSS
+- Functional Studio README list built-in functions
