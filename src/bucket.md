@@ -85,7 +85,7 @@ Computing
 
 :   Linux user, command line-confident
 
-    Programming: C(++), C#, Python
+    Programming: Rust, C(++), C#, Python
 
 Music
 

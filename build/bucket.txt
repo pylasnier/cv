@@ -852,6 +852,8 @@ Pandoc
             , Para
                 [ Str "Programming:"
                 , Space
+                , Str "Rust,"
+                , Space
                 , Str "C(++),"
                 , Space
                 , Str "C#,"

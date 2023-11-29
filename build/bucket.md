@@ -91,7 +91,7 @@ English (native), French (proficient, GCSE Grade 9)
 **Computing**  
 Linux user, command line-confident
 
-Programming: C(++), C#, Python
+Programming: Rust, C(++), C#, Python
 
 **Music**  
 ABRSM Grade 6 Piano (Merit)
