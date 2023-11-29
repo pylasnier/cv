@@ -31,7 +31,7 @@ Studying for MEng in Aerospace and Aerothermal Engineering
 7 Grade 9s (incl. Mathematics, Physics, Computer Science, and English
 Language)
 
-## Work experience
+## Professional experience
 
 **Siemens Cambridge Software Internship** \| 2023 \| C++, Rust (WASM),
 TypeScript

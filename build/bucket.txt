@@ -213,8 +213,8 @@ Pandoc
       ]
   , Header
       1
-      ( "work-experience" , [] , [] )
-      [ Str "Work" , Space , Str "experience" ]
+      ( "professional-experience" , [] , [] )
+      [ Str "Professional" , Space , Str "experience" ]
   , Header
       2
       ( "siemens-cambridge-software-internship-2023-c-rust-wasm-typescript"
