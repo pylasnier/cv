@@ -8,14 +8,17 @@ St. Catharine’s College, Cambridge, CB2 1RL
 
 ## Education
 
-**2020 – present**  
-**University of Cambridge, St. Catharine’s College**  
-Engineering, 4<sup>th</sup> year student
+**2024 – present**  
+**Dept. of Computer Science Technology, University of Cambridge**
+(MPhil)  
+Advanced Computer Science MPhil student
 
-Class I BA (rank 40 of 277 in Year 3)
+**2020 – 2024**  
+**St. Catharine’s College, Cambridge** (Undergraduate)  
+Engineering, Class I BA (Hons) & MEng with Merit
 
-Studying for MEng in Aerospace and Aerothermal Engineering  
-(modules incl. Computer Systems and Algorithms & Data Structures)
+Aerospace and Aerothermal Engineering  
+Mechanical Engineering
 
 **2018 – 2020**  
 **Richard Huish College, Taunton** (A-Levels)
@@ -39,19 +42,22 @@ TypeScript
 - 12-week summer internship at Cambridge office;
 - Contributed to Siemens NX C++ codebase;
 - Worked with dev tools team:
-  - Wrote VSCode extensions;
+  - Wrote VSCode extensions to integrate with source control;
   - Implemented asynchronous client-server system in Rust using
     WebSockets.
 
 ## Project experience
 
-**4<sup>th</sup> year Engineering Project** \| 2023, ongoing \| Python
+**4<sup>th</sup> year Engineering Project** \| 2023 – 2024 \| Python
 
 - Individual project for MEng;
+- Achieved First Class;
 - Modelling of 1-D thermoacoustics networks:
-  - Ongoing design challenge involving thermodynamics problem;
-  - Involves constructing system as linear algebra problem;
-  - Using `numpy` Python library to solve system.
+  - Mathematical analysis of complex thermodynamics problem;
+  - Involves constructing system as linear algebra problem using finite
+    differences;
+  - Implemented as Python API to generate solutions from thermoacoustic
+    configuration and assumed partial solution.
 
 **2<sup>nd</sup> year Engineering Robot Project** \| 2021 \| Arduino C++
 \| [*github.com/pylasnier/idp205*](https://github.com/pylasnier/idp205)
@@ -83,15 +89,34 @@ TypeScript
 - Packaged the whole interpreter with a simple IDE built using Windows
   Forms.
 
+## Extra-curricular experience
+
+**St. Catharine’s College Badminton Club Captain** \| 2023 – 2024
+
+- Ensured smooth-running of regular college training sessions;
+- Fostered inclusive and competitive environment for players to develop
+  and grow;
+- Primary responsibility for club finances and competitive fixtures:
+  - Managed club budget ensuring responsible consumption and spending on
+    shuttles and restrings;
+  - Organised weekly fixtures for intercollegiate league and tournament
+    matches;
+- Oversaw success of the college team in intercollegiate competitions:
+  - Maintanence of high league division (2<sup>nd</sup> of 7) with an
+    almost entirely fresh roster of players;
+  - High placements in the annual team elimination doubles tournament
+    (Cuppers) – semi-finals in the mixed discipline, and champions in
+    the women’s discipline.
+
 ## Activities and Interests
 
 **Languages**  
 English (native), French (proficient, GCSE Grade 9)
 
 **Computing**  
-Linux user, command line-confident
+Linux (NixOS) user, command line-confident
 
-Programming: Rust, C(++), C#, Python
+Programming: Rust, C(++), Haskell, C#, Python
 
 **Music**  
 ABRSM Grade 6 Piano (Merit)

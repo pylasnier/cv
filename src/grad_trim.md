@@ -33,12 +33,6 @@ address: St. Catharine's College, Cambridge, CB2 1RL
     -  
     :::
 
-2013 -- 2018
-
-:   **Bishop Fox's School, Taunton** (GCSEs)
-
-    7 Grade 9s (incl. Mathematics, Physics, Computer Science, and English Language)
-
 # Professional experience
 
 ## **Siemens Cambridge Software Internship** | 2023 | C++, Rust (WASM), TypeScript
@@ -60,15 +54,6 @@ address: St. Catharine's College, Cambridge, CB2 1RL
     - Involves constructing system as linear algebra problem using finite differences;
     - Implemented as Python API to generate solutions from thermoacoustic configuration and assumed partial solution.
 
-## **2^nd^ year Engineering Robot Project** | 2021 | Arduino C++ | [*github.com/pylasnier/idp205*](https://github.com/pylasnier/idp205)
-
-- Software lead of six-person team group project to design an autonomous robot;
-- Task involved navigation within an arena to search and collect small dummies;
-- Developed an understanding of the limitations of microcontrollers and how to work around them, especially memory constraints;
-- Learnt alternatives for debugging a microcontroller system when breakpoints, watches, and other debugging features are not available.
-
-\pagebreak
-
 ## **A-Level Computer Science NEA** | 2019 -- 2020 | C# | [*github.com/pylasnier/functional-studio*](https://github.com/pylasnier/functional-studio)
 
 - Designed an explicitly simply typed pure functional programming language, featuring:
@@ -78,6 +63,8 @@ address: St. Catharine's College, Cambridge, CB2 1RL
 - Developed an intermediate representation (IR) that implements this language;
 - Built a translator, including a tokeniser and a parser that produce the described IR, featuring a rich error system including type checking;
 - Packaged the whole interpreter with a simple IDE built using Windows Forms.
+
+\pagebreak
 
 # Extra-curricular experience
 

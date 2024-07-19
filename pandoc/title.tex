@@ -6,20 +6,36 @@
 % Pascal Lasnier
 % \endgroup
 % \ruledheader{blue}{Pascal Lasnier}
+ 
+% \ifdefined\name
+% \begin{Huge}
+% \textsc{\textbf{\name}}
+% \end{Huge}
+% \fi
+% 
+% \vspace{-7.5mm}
+% 
+% \begin{flushright}
+% \mbox{\rule[-6mm]{0.8pt}{14mm}\hspace{3mm}%
+% \parbox{40mm}{\email\\\phone\\\href{https://\website}{\website}}}
+% \end{flushright}
+% 
+% \ifdefined\address
+% \vspace{-1.2ex}
+% \address
+% \fi
+%
+\begin{minipage}[t]{4in}%
 \ifdefined\name
 \begin{Huge}
-\textsc{\textbf{\hspace{8mm}\name}}
+\textsc{\textbf{\name}}
 \end{Huge}
 \fi
 
-\vspace{-7.5mm}
-
-\begin{flushright}
+\ifdefined\address
+\vspace{1.0ex}
+\address
+\fi\end{minipage}
+\hfill
 \mbox{\rule[-6mm]{0.8pt}{14mm}\hspace{3mm}%
 \parbox{40mm}{\email\\\phone\\\href{https://\website}{\website}}}
-\end{flushright}
-
-\ifdefined\address
-\vspace{-1.2ex}
-\hspace{8mm}\address
-\fi
