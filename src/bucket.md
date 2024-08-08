@@ -9,7 +9,7 @@ address: St. Catharine's College, Cambridge, CB2 1RL
 
 2024 -- present
 
-:   **Dept. of Computer Science Technology, University of Cambridge** (MPhil)\
+:   **Dept. of Computer Science & Technology, University of Cambridge** (MPhil)\
     Advanced Computer Science MPhil student
 
 2020 -- 2024

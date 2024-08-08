@@ -9,7 +9,7 @@ St. Catharine’s College, Cambridge, CB2 1RL
 ## Education
 
 **2024 – present**  
-**Dept. of Computer Science Technology, University of Cambridge**
+**Dept. of Computer Science & Technology, University of Cambridge**
 (MPhil)  
 Advanced Computer Science MPhil student
 

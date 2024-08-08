@@ -50,6 +50,8 @@ Pandoc
                     , Space
                     , Str "Science"
                     , Space
+                    , Str "&"
+                    , Space
                     , Str "Technology,"
                     , Space
                     , Str "University"
