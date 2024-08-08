@@ -44,6 +44,12 @@ Mechanical Engineering
 - Computer Science (A\*)
 - Physics (A\*)
 
+**2013 – 2018**  
+**Bishop Fox’s School, Taunton** (GCSEs)
+
+7 Grade 9s (incl. Mathematics, Physics, Computer Science, and English
+Language)
+
 ## Professional experience
 
 **Siemens Cambridge Software Internship** \| 2023 \| C++, Rust (WASM),
@@ -68,6 +74,18 @@ TypeScript
     differences;
   - Implemented as Python API to generate solutions from thermoacoustic
     configuration and assumed partial solution.
+
+**2<sup>nd</sup> year Engineering Robot Project** \| 2021 \| Arduino C++
+\| [*github.com/pylasnier/idp205*](https://github.com/pylasnier/idp205)
+
+- Software lead of six-person team group project to design an autonomous
+  robot;
+- Task involved navigation within an arena to search and collect small
+  dummies;
+- Developed an understanding of the limitations of microcontrollers and
+  how to work around them, especially memory constraints;
+- Learnt alternatives for debugging a microcontroller system when
+  breakpoints, watches, and other debugging features are not available.
 
 **A-Level Computer Science NEA** \| 2019 – 2020 \| C# \|
 [*github.com/pylasnier/functional-studio*](https://github.com/pylasnier/functional-studio)
