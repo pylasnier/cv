@@ -249,7 +249,7 @@ Pandoc
       , Space
       , Str "Rust"
       , Space
-      , Str "(WASM),"
+      , Str "(Wasm),"
       , Space
       , Str "TypeScript"
       ]
@@ -337,6 +337,126 @@ Pandoc
       1
       ( "project-experience" , [] , [] )
       [ Str "Project" , Space , Str "experience" ]
+  , Header
+      2
+      ( "mphil-computer-science-project-ongoing-2024-2025-hol4"
+      , []
+      , []
+      )
+      [ Strong
+          [ Str "MPhil"
+          , Space
+          , Str "Computer"
+          , Space
+          , Str "Science"
+          , Space
+          , Str "Project"
+          ]
+      , Space
+      , Str "("
+      , Emph [ Str "Ongoing" ]
+      , Str ")"
+      , Space
+      , Str "|"
+      , Space
+      , Str "2024"
+      , Space
+      , Str "\8211"
+      , Space
+      , Str "2025"
+      , Space
+      , Str "|"
+      , Space
+      , Str "HOL4"
+      ]
+  , BulletList
+      [ [ Plain
+            [ Str "Individual"
+            , Space
+            , Str "project"
+            , Space
+            , Str "for"
+            , Space
+            , Str "MPhil;"
+            ]
+        ]
+      , [ Plain
+            [ Str "Building"
+            , Space
+            , Str "verified"
+            , Space
+            , Str "compiler"
+            , Space
+            , Str "for"
+            , Space
+            , Str "Scheme"
+            , Space
+            , Str "using"
+            , Space
+            , Str "CakeML:"
+            ]
+        , BulletList
+            [ [ Plain
+                  [ Str "Writing"
+                  , Space
+                  , Str "semantics"
+                  , Space
+                  , Str "for"
+                  , Space
+                  , Str "translation"
+                  , Space
+                  , Str "between"
+                  , Space
+                  , Str "Scheme"
+                  , Space
+                  , Str "subset"
+                  , Space
+                  , Str "and"
+                  , Space
+                  , Str "CakeML;"
+                  ]
+              ]
+            , [ Plain
+                  [ Str "Includes"
+                  , Space
+                  , Str "dynamic"
+                  , Space
+                  , Str "typing"
+                  , Space
+                  , Str "and"
+                  , Space
+                  , Str "first-class"
+                  , Space
+                  , Str "continuations,"
+                  , Space
+                  , Str "novel"
+                  , Space
+                  , Str "contributions"
+                  , Space
+                  , Str "to"
+                  , Space
+                  , Str "verified"
+                  , Space
+                  , Str "compilation;"
+                  ]
+              ]
+            , [ Plain
+                  [ Str "Implementing"
+                  , Space
+                  , Str "and"
+                  , Space
+                  , Str "verifying"
+                  , Space
+                  , Str "translation"
+                  , Space
+                  , Str "in"
+                  , Space
+                  , Str "HOL4."
+                  ]
+              ]
+            ]
+        ]
+      ]
   , Header
       2
       ( "th-year-engineering-project-2023-2024-python" , [] , [] )
@@ -463,6 +583,7 @@ Pandoc
             ]
         ]
       ]
+  , RawBlock (Format "tex") "\\pagebreak"
   , Header
       2
       ( "nd-year-engineering-robot-project-2021-arduino-c-github.compylasnieridp205"
@@ -625,7 +746,6 @@ Pandoc
             ]
         ]
       ]
-  , RawBlock (Format "tex") "\\pagebreak"
   , Header
       2
       ( "a-level-computer-science-nea-2019-2020-c-github.compylasnierfunctional-studio"

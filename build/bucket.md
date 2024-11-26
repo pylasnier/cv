@@ -36,7 +36,7 @@ Language)
 
 ## Professional experience
 
-**Siemens Cambridge Software Internship** \| 2023 \| C++, Rust (WASM),
+**Siemens Cambridge Software Internship** \| 2023 \| C++, Rust (Wasm),
 TypeScript
 
 - 12-week summer internship at Cambridge office;
@@ -47,6 +47,15 @@ TypeScript
     WebSockets.
 
 ## Project experience
+
+**MPhil Computer Science Project** (*Ongoing*) \| 2024 – 2025 \| HOL4
+
+- Individual project for MPhil;
+- Building verified compiler for Scheme using CakeML:
+  - Writing semantics for translation between Scheme subset and CakeML;
+  - Includes dynamic typing and first-class continuations, novel
+    contributions to verified compilation;
+  - Implementing and verifying translation in HOL4.
 
 **4<sup>th</sup> year Engineering Project** \| 2023 – 2024 \| Python
 

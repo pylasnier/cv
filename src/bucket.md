@@ -41,7 +41,7 @@ address: St. Catharine's College, Cambridge, CB2 1RL
 
 # Professional experience
 
-## **Siemens Cambridge Software Internship** | 2023 | C++, Rust (WASM), TypeScript
+## **Siemens Cambridge Software Internship** | 2023 | C++, Rust (Wasm), TypeScript
 
 - 12-week summer internship at Cambridge office;
 - Contributed to Siemens NX C++ codebase;
@@ -50,6 +50,14 @@ address: St. Catharine's College, Cambridge, CB2 1RL
     - Implemented asynchronous client-server system in Rust using WebSockets.
 
 # Project experience
+
+## **MPhil Computer Science Project** (*Ongoing*) | 2024 -- 2025 | HOL4
+
+- Individual project for MPhil;
+- Building verified compiler for Scheme using CakeML:
+    - Writing semantics for translation between Scheme subset and CakeML;
+    - Includes dynamic typing and first-class continuations, novel contributions to verified compilation;
+    - Implementing and verifying translation in HOL4.
 
 ## **4^th^ year Engineering Project** | 2023 -- 2024 | Python
 
@@ -60,14 +68,14 @@ address: St. Catharine's College, Cambridge, CB2 1RL
     - Involves constructing system as linear algebra problem using finite differences;
     - Implemented as Python API to generate solutions from thermoacoustic configuration and assumed partial solution.
 
+\pagebreak
+
 ## **2^nd^ year Engineering Robot Project** | 2021 | Arduino C++ | [*github.com/pylasnier/idp205*](https://github.com/pylasnier/idp205)
 
 - Software lead of six-person team group project to design an autonomous robot;
 - Task involved navigation within an arena to search and collect small dummies;
 - Developed an understanding of the limitations of microcontrollers and how to work around them, especially memory constraints;
 - Learnt alternatives for debugging a microcontroller system when breakpoints, watches, and other debugging features are not available.
-
-\pagebreak
 
 ## **A-Level Computer Science NEA** | 2019 -- 2020 | C# | [*github.com/pylasnier/functional-studio*](https://github.com/pylasnier/functional-studio)
 
