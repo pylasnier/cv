@@ -1,7 +1,7 @@
 { stdenv
 , lib
 , pandoc
-, texliveFull
+, texlive
 , target ? "bucket"
 }:
 
@@ -16,10 +16,17 @@ stdenv.mkDerivation {
 
   nativeBuildInputs = [
     pandoc
-    texliveFull
+    (texlive.withPackages (p: with p; [
+      scheme-small
+      enumitem
+      tex-gyre
+    ]))
   ];
 
   buildFlags = [ "pdf" "gfm" "TARGET=${target}" ];
+  preBuild = ''
+    export XDG_CACHE_HOME="$(mktemp -d)"
+  '';
   postBuild = ''
     mkdir -p $out/doc
     cp build/*.pdf build/*.md $out/doc
