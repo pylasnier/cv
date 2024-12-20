@@ -403,6 +403,8 @@ Pandoc
                   , Space
                   , Str "for"
                   , Space
+                  , Str "and"
+                  , Space
                   , Str "translation"
                   , Space
                   , Str "between"
@@ -981,20 +983,22 @@ Pandoc
       [ Str "Extra-curricular" , Space , Str "experience" ]
   , Header
       2
-      ( "st.-catharines-college-badminton-club-captain-2023-2024"
+      ( "captain-of-st.-catharines-college-badminton-club-2023-2024"
       , []
       , []
       )
       [ Strong
-          [ Str "St.\160Catharine\8217s"
+          [ Str "Captain"
+          , Space
+          , Str "of"
+          , Space
+          , Str "St.\160Catharine\8217s"
           , Space
           , Str "College"
           , Space
           , Str "Badminton"
           , Space
           , Str "Club"
-          , Space
-          , Str "Captain"
           ]
       , Space
       , Str "|"
@@ -1333,7 +1337,7 @@ Pandoc
                 , Space
                 , Str "Bronze"
                 , Space
-                , Str "(2019),"
+                , Str "(2017),"
                 , Space
                 , Str "Gold"
                 , Space

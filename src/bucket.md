@@ -55,7 +55,7 @@ address: St. Catharine's College, Cambridge, CB2 1RL
 
 - Individual project for MPhil;
 - Building verified compiler for Scheme using CakeML:
-    - Writing semantics for translation between Scheme subset and CakeML;
+    - Writing semantics for and translation between Scheme subset and CakeML;
     - Includes dynamic typing and first-class continuations, novel contributions to verified compilation;
     - Implementing and verifying translation in HOL4.
 
@@ -89,7 +89,7 @@ address: St. Catharine's College, Cambridge, CB2 1RL
 
 # Extra-curricular experience
 
-## **St. Catharine's College Badminton Club Captain** | 2023 -- 2024
+## **Captain of St. Catharine's College Badminton Club** | 2023 -- 2024
 
 - Ensured smooth-running of regular college training sessions;
 - Fostered inclusive and competitive environment for players to develop and grow;
@@ -126,7 +126,7 @@ Sports
 
 Extra-curricular
 
-:   Duke of Edinburgh Award: Bronze (2019), Gold (ongoing)
+:   Duke of Edinburgh Award: Bronze (2017), Gold (ongoing)
 
     Volunteer at local library (Taunton)
 
