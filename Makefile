@@ -1,19 +1,18 @@
 BUILDDIR=build
-SRCDIR=src
+SRC=main.md
 PANDOCDIR=pandoc
-include target.conf
+TARGET=out
 
-all: pdf readme native
+all: pdf readme
 
 pdf: tex
 	xelatex -output-directory=$(BUILDDIR) \
 		-interaction=batchmode \
 		$(BUILDDIR)/$(TARGET).tex
-	rm $(BUILDDIR)/$(TARGET).aux $(BUILDDIR)/$(TARGET).log
 
-tex:
+tex: $(SRC) $(PANDOCDIR)/template.latex $(PANDOCDIR)/header.tex $(PANDOCDIR)/title.tex $(PANDOCDIR)/filter.lua
 	mkdir $(BUILDDIR) -p
-	pandoc $(SRCDIR)/$(TARGET).md \
+	pandoc $(SRC) \
 		--template=$(PANDOCDIR)/template.latex \
 		--include-in-header=$(PANDOCDIR)/header.tex \
 		--include-before-body=$(PANDOCDIR)/title.tex \
@@ -26,9 +25,9 @@ tex:
 		--lua-filter=$(PANDOCDIR)/filter.lua \
 		-s --output=$(BUILDDIR)/$(TARGET).tex
 
-gfm:
+gfm: $(SRC) $(PANDOCDIR)/template.md $(PANDOCDIR)/filter.lua
 	mkdir $(BUILDDIR) -p
-	pandoc $(SRCDIR)/$(TARGET).md \
+	pandoc $(SRC) \
 		--template=$(PANDOCDIR)/template.md \
 		--to=gfm \
 		--lua-filter=$(PANDOCDIR)/filter.lua \
@@ -37,8 +36,8 @@ gfm:
 readme: gfm
 	cat README-bare.md $(BUILDDIR)/$(TARGET).md > README.md
 
-native:
+native: $(SRC)
 	mkdir $(BUILDDIR) -p
-	pandoc $(SRCDIR)/$(TARGET).md \
+	pandoc $(SRC).md \
 		--to=native \
 		-s --output=$(BUILDDIR)/$(TARGET).txt
