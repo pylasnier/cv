@@ -8,14 +8,18 @@ St. Catharine’s College, Cambridge, CB2 1RL
 
 ## Education
 
-**2024 – present**  
+**2024 – 2025**  
 **Dept. of Computer Science & Technology, University of Cambridge**
 (MPhil)  
-Advanced Computer Science MPhil student
+Advanced Computer Science, MPhil with Distinction
+
+Modules include Advanced Topics in Programming Languages, Advanced
+Topics in Computer Architecture, Advanced Topics in Computer Systems,
+Category Theory, Advanced Topics in Category Theory
 
 **2020 – 2024**  
 **St. Catharine’s College, Cambridge** (Undergraduate)  
-Engineering, Class I BA (Hons) & MEng with Merit
+Engineering, Class I BA (Hons) & MEng with Merit (Class I project)
 
 Aerospace and Aerothermal Engineering  
 Mechanical Engineering
@@ -48,26 +52,27 @@ TypeScript
 
 ## Project experience
 
-**MPhil Computer Science Project** (*Ongoing*) \| 2024 – 2025 \| HOL4
+**MPhil Research Project** \| 2024 – 2025 \| HOL4 \|
+[*github.com/CakeML/cakeml/tree/master/compiler/scheme*](https://github.com/CakeML/cakeml/tree/master/compiler/scheme)
 
-- Individual project for MPhil;
-- Building verified compiler for Scheme using CakeML:
-  - Writing semantics for and translation between Scheme subset and
-    CakeML;
+- Verified compiler for Scheme using CakeML:
+  - Implemented semantics for and verified compilation between Scheme
+    and CakeML;
   - Includes dynamic typing and first-class continuations, novel
     contributions to verified compilation;
-  - Implementing and verifying translation in HOL4.
+  - Implemented and verified in HOL4;
+- Individual project for MPhil.
 
 **4<sup>th</sup> year Engineering Project** \| 2023 – 2024 \| Python
 
-- Individual project for MEng;
-- Achieved First Class;
 - Modelling of 1-D thermoacoustics networks:
   - Mathematical analysis of complex thermodynamics problem;
   - Involves constructing system as linear algebra problem using finite
     differences;
   - Implemented as Python API to generate solutions from thermoacoustic
-    configuration and assumed partial solution.
+    configuration and assumed partial solution;
+- Individual project for MEng;
+- Achieved First Class.
 
 **2<sup>nd</sup> year Engineering Robot Project** \| 2021 \| Arduino C++
 \| [*github.com/pylasnier/idp205*](https://github.com/pylasnier/idp205)
@@ -91,8 +96,7 @@ TypeScript
   - a basic type system including integers, floats, and bools (arrays
     are possible as indexing functions, but no polymorphism or type
     constructors other than function types);
-- Developed an intermediate representation (IR) that implements this
-  language;
+- Developed an intermediate representation (IR) for this language;
 - Built a translator, including a tokeniser and a parser that produce
   the described IR, featuring a rich error system including type
   checking;
@@ -118,7 +122,7 @@ TypeScript
     (Cuppers) – semi-finals in the mixed discipline, and champions in
     the women’s discipline.
 
-## Activities and Interests
+## Skills and activities
 
 **Languages**  
 English (native), French (proficient, GCSE Grade 9)
@@ -126,7 +130,7 @@ English (native), French (proficient, GCSE Grade 9)
 **Computing**  
 Linux (NixOS) user, command line-confident
 
-Programming: Rust, C(++), Haskell, C#, Python
+Programming: Rust, C(++), Haskell, C#, SML/HOL4, Python, TypeScript
 
 **Music**  
 ABRSM Grade 6 Piano (Merit)

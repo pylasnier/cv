@@ -7,15 +7,18 @@ address: St. Catharine's College, Cambridge, CB2 1RL
 ---
 # Education{.norule}
 
-2024 -- present
+2024 -- 2025
 
 :   **Dept. of Computer Science & Technology, University of Cambridge** (MPhil)\
-    Advanced Computer Science MPhil student
+    Advanced Computer Science, MPhil with Distinction
+
+    Modules include Advanced Topics in Programming Languages, Advanced Topics in Computer Architecture, Advanced Topics in Computer Systems,
+    Category Theory, Advanced Topics in Category Theory
 
 2020 -- 2024
 
 :   **St. Catharine's College, Cambridge** (Undergraduate)\
-    Engineering, Class I BA (Hons) & MEng with Merit
+    Engineering, Class I BA (Hons) & MEng with Merit (Class I project)
 
     Aerospace and Aerothermal Engineering\
     Mechanical Engineering
@@ -51,22 +54,22 @@ address: St. Catharine's College, Cambridge, CB2 1RL
 
 # Project experience
 
-## **MPhil Computer Science Project** (*Ongoing*) | 2024 -- 2025 | HOL4
+## **MPhil Research Project** | 2024 -- 2025 | HOL4 | [*github.com/CakeML/cakeml/tree/master/compiler/scheme*](https://github.com/CakeML/cakeml/tree/master/compiler/scheme)
 
-- Individual project for MPhil;
-- Building verified compiler for Scheme using CakeML:
-    - Writing semantics for and translation between Scheme subset and CakeML;
+- Verified compiler for Scheme using CakeML:
+    - Implemented semantics for and verified compilation between Scheme and CakeML;
     - Includes dynamic typing and first-class continuations, novel contributions to verified compilation;
-    - Implementing and verifying translation in HOL4.
+    - Implemented and verified in HOL4;
+- Individual project for MPhil.
 
 ## **4^th^ year Engineering Project** | 2023 -- 2024 | Python
 
-- Individual project for MEng;
-- Achieved First Class;
 - Modelling of 1-D thermoacoustics networks:
     - Mathematical analysis of complex thermodynamics problem;
     - Involves constructing system as linear algebra problem using finite differences;
-    - Implemented as Python API to generate solutions from thermoacoustic configuration and assumed partial solution.
+    - Implemented as Python API to generate solutions from thermoacoustic configuration and assumed partial solution;
+- Individual project for MEng;
+- Achieved First Class.
 
 \pagebreak
 
@@ -83,7 +86,7 @@ address: St. Catharine's College, Cambridge, CB2 1RL
     - functions as first-class citizens and higher-order functions,
     - selection and recursion,
     - a basic type system including integers, floats, and bools (arrays are possible as indexing functions, but no polymorphism or type constructors other than function types);
-- Developed an intermediate representation (IR) that implements this language;
+- Developed an intermediate representation (IR) for this language;
 - Built a translator, including a tokeniser and a parser that produce the described IR, featuring a rich error system including type checking;
 - Packaged the whole interpreter with a simple IDE built using Windows Forms.
 
@@ -100,7 +103,7 @@ address: St. Catharine's College, Cambridge, CB2 1RL
     - Maintanence of high league division (2^nd^ of 7) with an almost entirely fresh roster of players;
     - High placements in the annual team elimination doubles tournament (Cuppers) -- semi-finals in the mixed discipline, and champions in the women's discipline.
 
-# Activities and Interests
+# Skills and activities
 
 Languages
 
@@ -110,7 +113,7 @@ Computing
 
 :   Linux (NixOS) user, command line-confident
 
-    Programming: Rust, C(++), Haskell, C#, Python
+    Programming: Rust, C(++), Haskell, C#, SML/HOL4, Python, TypeScript
 
 Music
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024/nixos.org) (preloaded format=xelatex 1980.1.1)  8 JUL 2025 16:01
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024/nixos.org) (preloaded format=xelatex 1980.1.1)  8 JUL 2025 16:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1170,16 +1170,16 @@ LaTeX Font Info:    Font shape `TU/TeXGyreHeros(0)/b/n' will be
 LaTeX Font Info:    Font shape `TU/TeXGyreHeros(0)/b/n' will be
 (Font)              scaled to size 10.95pt on input line 137.
 LaTeX Font Info:    Font shape `TU/TeXGyreHeros(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 215.
+(Font)              scaled to size 10.95pt on input line 221.
 LaTeX Font Info:    Font shape `TU/TeXGyreHeros(0)/b/n' will be
-(Font)              scaled to size 7.665pt on input line 240.
+(Font)              scaled to size 7.665pt on input line 245.
 
 
 [1
 
 ]
 LaTeX Font Info:    Font shape `TU/TeXGyreHeros(0)/m/n' will be
-(Font)              scaled to size 7.665pt on input line 360.
+(Font)              scaled to size 7.665pt on input line 364.
 
 
 [2] (build/out.aux)
@@ -1191,7 +1191,7 @@ L3 programming layer <2025-01-18>
 Here is how much of TeX's memory you used:
  18758 strings out of 475366
  351819 string characters out of 5755293
- 925419 words of memory out of 5000000
+ 926419 words of memory out of 5000000
  41510 multiletter control sequences out of 15000+600000
  562476 words of font info for 81 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
